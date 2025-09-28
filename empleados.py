@@ -4,7 +4,7 @@ class Empleado:
         self.sueldo = sueldo
 
     def imprimir(self):
-        print(f"Nombre: {self.nombre}")
+        print(f"Nombre: {self.nombre}") 
         print(f"Sueldo: {self.sueldo:.2f}")
 
     def paga_impuestos(self):
